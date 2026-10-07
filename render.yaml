@@ -1,0 +1,39 @@
+services:
+  - type: web
+    name: Learnify-backend
+    env: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
+      - key: PORT
+        value: 5000
+      - key: DB
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
+      - key: Activation_Secret
+        sync: false
+      - key: Jwt_Sec
+        sync: false
+      - key: Gmail
+        sync: false
+      - key: Password
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: BREVO_API_KEY
+        sync: false
+      - key: Razorpay_key
+        sync: false
+      - key: Razorpay_Secret
+        sync: false
+      - key: CLOUD_NAME
+        sync: false
+      - key: CLOUD_API_KEY
+        sync: false
+      - key: CLOUD_API_SECRET
+        sync: false
+
