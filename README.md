@@ -1,4 +1,4 @@
-📚 E-Learning Application (MERN Stack)
+📚 E-Learning Application
 A full-stack platform where users can register, purchase courses, and access content securely.
 
 🔹 Features
@@ -23,5 +23,5 @@ Optimized Express.js Routing
 Uses modular routes for scalability.
 Handles concurrent requests efficiently.
 🚀 Tech Stack
-Frontend: React.js | Backend: Node.js, Express.js | Database: MongoDB
+Frontend: React.js | Backend: Node.js, Express.js | Database: PostgreSQL
 Security: JWT, Bcrypt, CORS | Email Service: SMTP (Nodemailer)
